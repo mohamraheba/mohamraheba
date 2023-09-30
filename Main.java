@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to input the number of devices they want to create
+       
         System.out.print("Enter the number of devices to create (between 1 and 20): ");
         int numDevices = scanner.nextInt();
 
-        // Validate the user input to ensure it's between 1 and 20
+        
         if (numDevices < 1 || numDevices > 20) {
             System.out.println("Invalid input. Number of devices must be between 1 and 20.");
             scanner.close();
@@ -18,7 +18,7 @@ public class Main {
 
         Random random = new Random();
 
-        int distinctDeviceTypes = 3; // We have 3 derived classes: Smartphone, Laptop, Tablet
+        int distinctDeviceTypes = 3; 
         double totalDevicePrice = 0;
         double totalDeviceWeight = 0;
 
