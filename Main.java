@@ -13,7 +13,7 @@ public class Main {
         if (numDevices < 1 || numDevices > 20) {
             System.out.println("Invalid input. Number of devices must be between 1 and 20.");
             scanner.close();
-            return; // Exit the program
+            return; 
         }
 
         Random random = new Random();
@@ -83,7 +83,7 @@ public class Main {
         System.out.println("Total price of all devices: $" + totalDevicePrice);
         System.out.println("Total weight of all devices: " + totalDeviceWeight + " grams");
 
-        // Close the scanner
+    
         scanner.close();
     }
 }
